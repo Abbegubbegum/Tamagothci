@@ -7,6 +7,7 @@ namespace Tamagothci
     {
         private int hunger = 0;
         private int boredom = 0;
+
         private List<string> words = new List<string>();
         private bool isAlive = true;
         private Random r = new();
@@ -40,6 +41,7 @@ namespace Tamagothci
                 isAlive = false;
             }
         }
+
         public void PrintStats()
         {
 

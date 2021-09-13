@@ -18,7 +18,7 @@ namespace Tamagothci
 
             while (pet.GetAlive())
             {
-                Console.WriteLine($"What do you want to do with {pet.name}?4");
+                Console.WriteLine($"What do you want to do with {pet.name}?");
                 Console.WriteLine("1-Feed, 2-Greet, 3-Teach, 4-stats");
                 playerInput = Console.ReadLine();
 
